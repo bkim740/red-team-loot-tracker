@@ -14,3 +14,7 @@ python loot.py search --query prod
 python loot.py export --format csv --out loot.csv
 ```
 Key is stored locally in `vault.key`. Keep it safe.
+
+## Data & Samples
+- Runtime data (`loot.json`, `loot.csv`, `vault.*`) is **gitignored** to avoid committing secrets.
+- See **samples/sample_loot.json** and **samples/sample_loot.csv** for sanitized examples (all values are redacted).
