@@ -1,0 +1,56 @@
+[
+  {
+    "type": "cred",
+    "name": "db-admin",
+    "value": "REDACTED",
+    "tags": [
+      "prod",
+      "db"
+    ]
+  },
+  {
+    "type": "file",
+    "name": "hashdump",
+    "value": "REDACTED",
+    "tags": [
+      "windows",
+      "dc"
+    ]
+  },
+  {
+    "type": "note",
+    "name": "pivot-ideas",
+    "value": "REDACTED",
+    "tags": [
+      "idea",
+      "lateral"
+    ]
+  },
+  {
+    "type": "cred",
+    "name": "db-admin",
+    "tags": [
+      "prod",
+      "db"
+    ],
+    "value": "REDACTED"
+  },
+  {
+    "type": "file",
+    "name": "hashdump",
+    "tags": [
+      "windows",
+      "dc"
+    ],
+    "value": "REDACTED"
+  },
+  {
+    "type": "cred",
+    "name": "db-admin",
+    "tags": [
+      "prod",
+      "db"
+    ],
+    "value": "REDACTED"
+  }
+]
