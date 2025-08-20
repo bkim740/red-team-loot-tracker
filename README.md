@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 # Red Team Loot Tracker (CLI)
 
 Simple terminal tool to catalog credentials, host artifacts, and sensitive finds.
