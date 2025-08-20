@@ -43,5 +43,14 @@
       "dc"
     ],
     "value": "/tmp/ntds.dit"
+  },
+  {
+    "type": "cred",
+    "name": "db-admin",
+    "tags": [
+      "prod",
+      "db"
+    ],
+    "value": "hunter2"
   }
 ]
