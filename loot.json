@@ -1,0 +1,29 @@
+[
+  {
+    "type": "cred",
+    "name": "db-admin",
+    "value": "u:foo p:bar",
+    "tags": [
+      "prod",
+      "db"
+    ]
+  },
+  {
+    "type": "file",
+    "name": "hashdump",
+    "value": "/tmp/ntds.dit",
+    "tags": [
+      "windows",
+      "dc"
+    ]
+  },
+  {
+    "type": "note",
+    "name": "pivot-ideas",
+    "value": "check svc tokens on app01",
+    "tags": [
+      "idea",
+      "lateral"
+    ]
+  }
+]

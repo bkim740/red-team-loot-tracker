@@ -1,0 +1,57 @@
+[
+  {
+    "type": "cred",
+    "name": "db-admin",
+    "value": "u:foo p:bar",
+    "tags": [
+      "prod",
+      "db"
+    ]
+  },
+  {
+    "type": "file",
+    "name": "hashdump",
+    "value": "/tmp/ntds.dit",
+    "tags": [
+      "windows",
+      "dc"
+    ]
+  },
+  {
+    "type": "note",
+    "name": "pivot-ideas",
+    "value": "check svc tokens on app01",
+    "tags": [
+      "idea",
+      "lateral"
+    ]
+  },
+  {
+    "type": "cred",
+    "name": "web-admin",
+    "value": "P@ssw0rd!",
+    "tags": [
+      "prod",
+      "web"
+    ]
+  },
+  {
+    "type": "cred",
+    "name": "api-key",
+    "value": "abcd1234",
+    "tags": [
+      "prod",
+      "api"
+    ]
+  },
+  {
+    "type": "cred",
+    "name": "api-key",
+    "value": "abcd1234-ROTATED",
+    "tags": [
+      "prod",
+      "api",
+      "rotated"
+    ]
+  }
+]

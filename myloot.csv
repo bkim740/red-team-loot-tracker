@@ -1,0 +1,7 @@
+type,name,value,tags
+cred,db-admin,u:foo p:bar,"['prod', 'db']"
+file,hashdump,/tmp/ntds.dit,"['windows', 'dc']"
+note,pivot-ideas,check svc tokens on app01,"['idea', 'lateral']"
+cred,web-admin,P@ssw0rd!,"['prod', 'web']"
+cred,api-key,abcd1234,"['prod', 'api']"
+cred,api-key,abcd1234-ROTATED,"['prod', 'api', 'rotated']"
