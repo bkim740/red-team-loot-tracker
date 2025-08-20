@@ -25,5 +25,23 @@
       "idea",
       "lateral"
     ]
+  },
+  {
+    "type": "cred",
+    "name": "db-admin",
+    "tags": [
+      "prod",
+      "db"
+    ],
+    "value": "hunter2"
+  },
+  {
+    "type": "file",
+    "name": "hashdump",
+    "tags": [
+      "windows",
+      "dc"
+    ],
+    "value": "/tmp/ntds.dit"
   }
 ]

@@ -1,4 +1,6 @@
-type,name,value,tags
-cred,db-admin,u:foo p:bar,"['prod', 'db']"
-file,hashdump,/tmp/ntds.dit,"['windows', 'dc']"
-note,pivot-ideas,check svc tokens on app01,"['idea', 'lateral']"
+type,name,tags,value
+cred,db-admin,"prod,db",u:foo p:bar
+file,hashdump,"windows,dc",/tmp/ntds.dit
+note,pivot-ideas,"idea,lateral",check svc tokens on app01
+cred,db-admin,"prod,db",hunter2
+file,hashdump,"windows,dc",/tmp/ntds.dit
